@@ -1,6 +1,6 @@
 [
     {
-      "_id": "677bd2e52671b4f2e0c741c7",
+      "_id": "6784dbfda166208104ee3780",
       "name": "Leather Handbag",
       "category": "accessories",
       "description": "Stylish leather handbag with ample storage space.",
@@ -12,7 +12,7 @@
       "author":"admin"
     },
     {
-      "_id": 2,
+      "_id": "6784dbfda166208104ee3781",
       "name": "Evening Gown",
       "category": "dress",
       "description": "Elegant evening gown for special occasions.",
@@ -23,17 +23,17 @@
       "rating": 4.0
     },
     {
-      "_id": 3,
+      "_id": "67aae821702711614d6e5347",
       "name": "Gold Necklace",
       "category": "jewellery",
       "description": "Exquisite gold necklace with intricate design.",
       "price": 199.99,
-      "image": "https://images.unsplash.com/photo-1631097969294-c38afba59496?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://i.pinimg.com/originals/30/85/67/30856719b5e252ee4fe1a6f52a5fa63b.jpg",
       "color": "gold",
       "rating": 4.7
     },
     {
-      "_id": 4,
+      "_id": "6784dbfda166208104ee3783",
       "name": "Matte Lipstick",
       "category": "cosmetics",
       "description": "Long-lasting matte lipstick in various shades.",
@@ -43,18 +43,18 @@
       "rating": 4.2
     },
     {
-      "_id": 5,
+      "_id": "67aaeffc702711614d6e5360",
       "name": "Silk Scarf",
       "category": "accessories",
       "description": "Luxurious silk scarf with vibrant colors.",
       "price": 29.99,
       "oldPrice": 39.99,
-      "image": "https://images.unsplash.com/photo-1485527691629-8e370684924c?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image": "https://images.pexels.com/photos/2120584/pexels-photo-2120584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       "color": "blue",
       "rating": 4.3
     },
     {
-      "_id": 6,
+      "_id": "6784dbfda166208104ee3785",
       "name": "Cocktail Dress",
       "category": "dress",
       "description": "Chic cocktail dress for parties and events.",
@@ -64,7 +64,7 @@
       "rating": 3
     },
     {
-      "_id": 7,
+      "_id": "6784dbfda166208104ee3786",
       "name": "Diamond Earrings",
       "category": "jewellery",
       "description": "Sparkling diamond earrings that add elegance to any outfit.",
@@ -75,7 +75,7 @@
       "rating": 4.8
     },
     {
-      "_id": 8,
+      "_id": "6784dbfda166208104ee3787",
       "name": "Foundation",
       "category": "cosmetics",
       "description": "High-coverage foundation for a flawless finish.",
@@ -85,7 +85,7 @@
       "rating": 4.1
     },
     {
-      "_id": 9,
+      "_id": "6784dbfda166208104ee3788",
       "name": "Sunglasses",
       "category": "accessories",
       "description": "Trendy sunglasses with UV protection.",
@@ -95,7 +95,7 @@
       "rating": 4.6
     },
     {
-      "_id": 10,
+      "_id": "6784dbfda166208104ee3789",
       "name": "Casual Pants",
       "category": "dress",
       "description": "Comfortable maxi dress for casual outings.",

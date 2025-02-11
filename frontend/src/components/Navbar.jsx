@@ -35,11 +35,11 @@ const adminDropDownMenus = [
     {label: "Dashboard", path: "/dashboard/admin"},
     {label: "Manage Items", path: "/dashboard/manage-products"},
     {label: "All Orders", path: "/dashboard/manage-orders"},
-    {label: "Add New Post", path: "/dashboard/add-new-post"},
+    {label: "Add Product", path: "/dashboard/add-product"},
 ]
 //user dropdown menus
 const userDropDownMenus = [
-    {label: "Dashboard", path: "/dashboard/admin"},
+    {label: "Dashboard", path: "/dashboard"},
     {label: "Profile", path: "/dashboard/profile"},
     {label: "Payments", path: "/dashboard/payments"},
     {label: "Orders", path: "/dashboard/orders"},
@@ -63,8 +63,8 @@ try {
             <ul className="nav__links">
                 <li className='link'><Link to="/">Home</Link></li>
                 <li className='link'><Link to="/shop">Shop</Link></li>
-                <li className='link'><Link to="/">Pages</Link></li>
-                <li className='link'><Link to="/contact">Contact</Link></li>
+                {/* <li className='link'><Link to="/">Pages</Link></li>
+                <li className='link'><Link to="/contact">Contact</Link></li> */}
             </ul>
             
 {/* Logo */}

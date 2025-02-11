@@ -134,7 +134,7 @@ router.patch('/edit-profile', async (req, res)=>{
     if(profession !== undefined) user.profession = profession;
 
     await user.save();
-    res.status(500).send({message: "Profileupdated sucessfully", 
+    res.status(200).send({message: "Profileupdated sucessfully", 
         user:{
             _id: user._id,
             email: user.email,

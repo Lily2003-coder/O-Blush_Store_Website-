@@ -1,16 +1,17 @@
 const express = require('express');
 const Products = require('./products.model');
 const Reviews = require('../reviews/reviews.model');
-const verifyToken = require('../middleware/verifyToken');
-const verifyAdmin = require('../middleware/verifyadmin');
+//const verifyToken = require('../middleware/verifyToken');
+//const verifyAdmin = require('../middleware/verifyadmin');
 
 
 const router = express.Router();
 
 
 //post a product route
-router.post("/create.product", async(req, res) => {
+router.post("/create-product", async(req, res) => {
     try {
+        
         const newProduct = new Products({
             ...req.body
         });
@@ -92,7 +93,7 @@ router.get("/:id", async(req, res)=>{
 
 
 //Update a product
-router.patch("/update-product/:id", verifyToken, verifyAdmin, async (req, res)=>{
+router.patch("/update-product/:id",  async (req, res)=>{
     try {
         const productId = req.params.id;
         const updatedProduct = await Products.findByIdAndUpdate(productId, {...req.body}, {new: true});

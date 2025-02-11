@@ -28,7 +28,7 @@ export const reviewsApi = createApi({
             query: (userId)=>({
                 url: `/${userId}`
             }),
-            providesTags: (result)=> result ? [{type: "Reviews", id: result[0]?.email}]: []
+            providesTags: (result)=> result ? [{type: "Reviews", id: result[0]?.email}]: [],
         })
      
     }) 
